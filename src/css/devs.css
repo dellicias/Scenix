@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    background: #000;
+    color: #fff;
+}
+
+.perfilLog{
+    margin-left: 25px;
+    margin-bottom: 2px;
+    width: 50px;
+    height: 58px;
+    border-radius: 0%;
+}
+
+.perfilLog:hover{
+    transform:scale(120%);
+    transition: 1.0s;
+}
+
+.cabecalho{
+    background:#000000;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+}
+
+.cab-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cab-menu{
+    list-style: none;
+    display:flex;
+}
+
+.cab-menu li{
+    margin-left:20px;
+}
+
+.cab-menu a{
+    color:#fff;
+    text-decoration:none;
+    
+}
+
+.cab-menu a:hover{
+    color: #72069c;
+    transition: 0.5s;
+}
+main{
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+.esquerda{
+    justify-content: left;
+}
+
+.direita{
+    justify-content: right;
+}
+
+.nome{
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nome p{
+    padding-top: 10px;
+    margin-top: 3px;
+    transition: .8s;
+}
+
+.nome p:hover{
+    color: #72069c;
+}
+
+.nome a img{
+    margin-top: 8px;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.nome a img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #600783, 0 0 15px #640888, 0 0 17px #72069c;
+}
+
+img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.icones{
+    width: 26px;
+    border: solid 1px #fff;
+}
+
+footer{
+    text-align: center;
+    background: #1A1D1F;
+    height: 60px;
+    padding: 20px;
+}
