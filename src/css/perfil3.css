@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.perfilLog{
+    margin-left: 25px;
+    margin-bottom: 2px;
+    width: 50px;
+    height: 58px;
+    border-radius: none;
+}
+
+.perfilLog:hover{
+    transform:scale(120%);
+    transition: 1.0s;
+}
+
+
+.cabecalho{
+    background:#000000;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+}
+
+.cab-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cab-menu{
+    list-style: none;
+    display:flex;
+}
+
+.cab-menu li{
+    margin-left:20px;
+}
+
+.cab-menu a{
+    color:#fff;
+    text-decoration:none;
+    
+}
+
+.cab-menu a:hover{
+    color: #72069c;
+    transition: 0.5s;
+}
+
+.banner {
+    
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: flex-start; /* alinha o conteúdo ao topo */
+    text-align: left;        /* texto à esquerda */
+}
+
+.banner::before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5); /* sombra sobre a imagem */
+    z-index:1;
+}
+
+.banner-conteudo {
+    margin-top: 10%;
+    position: relative;
+    z-index:2;
+    padding: 60px;   /* afasta do topo e da esquerda */
+    max-width: 600px;
+}
+
+.banner-titulo {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner-descricao {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+.banner-botoes {
+    display: flex;        /* coloca os botões lado a lado */
+    gap: 15px;            /* espaço entre os botões */
+    justify-content: flex-start; /* alinha à esquerda */
+    flex-wrap: wrap;      /* caso caiba pouco espaço, quebra linha */
+}
+
+.banner-assistir {
+    background: #72069c;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 0 5px #00000080;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.banner-assistir:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #000000a0;
+}
+
+.sessao-filmes{
+    padding:20px;
+}
+
+.filme-titulo{
+    font-size:2em;
+    margin-bottom:20px;
+}
+
+.carrossel{
+    position:relative;
+    overflow:hidden;
+}
+
+.carrossel img{
+    width:100%;
+    height:auto;
+    display: block;
+    border-radius:10px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.3);
+}
+
+.carrossel-lista{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-item{
+    width:200px;
+    padding:10px;
+}
+
+.btn-carrossel{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    border:none;
+    background: rgba(0,0,0,0.5);
+    padding:10px;
+    cursor:pointer;
+}
+
+.btn-anterior{
+    left:0;
+}
+
+.btn-proximo{
+    right: 0;
+}
+
+footer{
+    background: #000;
+    padding:20px;
+    text-align: center;
+}
+
+
+
+
