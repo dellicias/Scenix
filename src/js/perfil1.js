@@ -7,7 +7,7 @@ const bannerItems =[
     },
     {
         imagem:"../assets/img/irmaBnn.png",
-        titulo:"Irmâ Morte",
+        titulo:"Irmã Morte",
         descricao:"Narcisa, jovem noviça com poderes sobrenaturais, chega a uma escola para garotas para ser professora. O local é um antigo convento cheio de segredos aterrorizantes. Conforme os dias passam, ela fica cada vez mais perto de desvendar os acontecimentos estranhos e perturbadores que atormentam a todos."
 
     },
