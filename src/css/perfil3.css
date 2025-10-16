@@ -149,12 +149,22 @@ body{
     transition: transform 0.5s ease-in-out;
 }
 
-.carrossel-item{
-    width:200px;
-    padding:10px;
+.carrossel-lista2{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
 }
 
-.btn-carrossel{
+.carrossel-item{
+    width:250px;
+    padding:10px;
+    cursor: pointer;
+}
+.carrossel-item:hover{
+     transform: scale(1.04);
+     transition: 0.8s;
+}
+
+/* .btn-carrossel{
     position:absolute;
     top:50%;
     transform: translateY(-50%);
@@ -170,7 +180,7 @@ body{
 
 .btn-proximo{
     right: 0;
-}
+} */
 
 footer{
     background: #000;
