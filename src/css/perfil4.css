@@ -164,30 +164,13 @@ body{
     cursor: pointer;
 }
 .carrossel-item:hover{
-     transform: scale(1.04);
-     transition: 0.8s;
+    transform: scale(1.04);
+    transition: 0.8s;
 }
 
-.btn-carrossel{
-    position:absolute;
-    top:50%;
-    transform: translateY(-50%);
-    border:none;
-    background: rgba(0,0,0,0.5);
-    padding:10px;
-    cursor:pointer;
-}
-
-/* .btn-anterior{
-    left:0;
-}
-
-.btn-proximo{
-    right: 0;
-} */
 
 footer{
-    background: #000;
+    background: #230330;
     padding:20px;
     text-align: center;
 }
