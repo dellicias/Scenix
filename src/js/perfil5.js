@@ -5,21 +5,21 @@ const bannerItems = [
     titulo: "Corra!",
     descricao:
       "Chris é um jovem fotógrafo negro que está prestes a conhecer os pais de Rose, sua namorada caucasiana. Na luxuosa propriedade dos pais dela, Chris percebe que a família esconde algo muito perturbador.",
-    trailer: "https://www.youtube.com/watch?v=mDGV5UucTu8"
+    trailer: "https://www.youtube.com/embed/mDGV5UucTu8"
   },
   {
     imagem: "../assets/img/psicopata.png",
     titulo: "Psicopata Americano",
     descricao:
       "Em Nova York, na geração yuppie nos anos 80, um corretor da Wall Street, Patrick Bateman é um assassino frio e, instigado por suas emoções, mata todos os que ficam em seu caminho e ameaçam suas ambições.",
-    trailer: "https://www.youtube.com/watch?v=_RympUu3MWc"
+    trailer: "https://www.youtube.com/embed/xMp1Ok5lSZ0"
   },
   {
     imagem: "../assets/img/parasita.png",
     titulo: "Parasita",
     descricao:
       "Toda a família de Ki-taek está desempregada, vivendo em um porão sujo e apertado. Por obra do acaso, ele começa a dar aulas de inglês para uma garota de família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe e filhos bolam um plano para se infiltrar também na abastada família, um a um. No entanto, os segredos e mentiras necessários à ascensão social cobram o seu preço.",
-    trailer: "https://www.youtube.com/embed/seSIJf5mhPE"
+    trailer: "https://www.youtube.com/embed/xFCrQy5IXI0"
   }
 ];
 
